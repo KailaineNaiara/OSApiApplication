@@ -5,6 +5,7 @@
  */
 package br.eti.kge.OSApiApplication.domain.repository;
 
+import br.eti.kge.OSApiApplication.domain.model.Cliente;
 import br.eti.kge.OSApiApplication.domain.model.OrdemServico;
 import br.eti.kge.OSApiApplication.domain.model.StatusOrdemServico;
 import java.time.LocalDateTime;
@@ -17,6 +18,14 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class OrdemServicoService {
+
+    public static void excluir(Long ordemservicoID) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public static Cliente salvar(Cliente ordemservico) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     @Autowired
     
